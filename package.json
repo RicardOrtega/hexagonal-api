@@ -1,0 +1,26 @@
+{
+  "name": "hexagonal-api",
+  "version": "1.0.0",
+  "description": "API RESTful implementando Arquitectura Hexagonal con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev:file": "USE_FILE_REPOSITORY=true nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["hexagonal", "architecture", "nodejs", "rest", "api"],
+  "author": "Diplomado Arquitectura Hexagonal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10"
+  }
+}
